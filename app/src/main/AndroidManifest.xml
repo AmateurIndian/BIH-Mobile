@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.noob.yusuf.bih">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.AppCompat.Light">
+
+        <activity android:name="com.noob.yusuf.bih.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.noob.yusuf.bih.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.noob.yusuf.bih.UtilityMenu"
+            android:label="BIH ~ Dormitories"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.noob.yusuf.bih.DormMain"
+            android:label="BIH ~ Utilities"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.noob.yusuf.bih.MaleRooms"
+            android:label="BIH ~ Dormitories"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.noob.yusuf.bih.RoomList"
+            android:label="BIH ~ Dormitories"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.noob.yusuf.bih.RoomInfo"
+            android:label="BIH ~ Dormitories"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.noob.yusuf.bih.Contact"
+            android:label="BIH ~ Contact Us"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.noob.yusuf.bih.TranslatorUtil"
+            android:label="BIH ~ Turkish Translator"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.noob.yusuf.bih.PersonInfo"
+            android:label="BIH ~ Board Members"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.noob.yusuf.bih.MapsUtil"
+            android:label="BIH ~ Bilkent Map"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.noob.yusuf.bih.LocationList"
+            android:label="BIH ~ Bilkent Map"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.noob.yusuf.bih.ConvertorUtil"
+            android:label="BIH ~ Currency Convertor"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.noob.yusuf.bih.About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.noob.yusuf.bih.CampusLife"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.noob.yusuf.bih.RegInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.noob.yusuf.bih.LifeDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.MinWidth" />
+        <activity
+            android:name="com.noob.yusuf.bih.ScheduleCity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.noob.yusuf.bih.BusMenu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+    </application>
+
+</manifest>

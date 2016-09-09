@@ -1,0 +1,55 @@
+<resources xmlns:font-size="urn:oasis:names:tc:xliff:document:1.2" xmlns:http="http://schemas.android.com/tools">
+    <string name="app_name">BIH Mobile</string>
+    <string name="title_activity_dormitary">Dormitary</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_male_rooms">MaleRooms</string>
+    <string name="title_activity_room_info">RoomInfo</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_person_info">PersonInfo</string>
+    <string name="title_activity_maps_util">Map</string>
+    <string name="from_USD">USD - \n US American Dollar</string>
+    <string name="aboutMsg">    <b>This application is made for the sole purpose of helping Bilkent students and for newly incoming international students who are still trying to figure out how to get to the registration area.</b>\n\n
+                                This app is dedicated to:\n
+                                <b>Figali Taho</b>\n
+                                <b>Waqas Rehmani</b>\n
+                                <b>Abdullah Wali</b>\n
+                                <b>Erin Avllazagaj</b>\n
+                                The people with whom the developer made his first android application, while doing the least amount of work.\n\n
+                                This application was made for the Bilkent International House and was inspired by the commitment shown by Midhat Miraj to her post as Public Relations Co-ordinator, and Irfan Tahir\'s quirky t-shirts\n\n\n
+                                Developed by Desi Noob, a trademark of The Amatieur Indian registerd under Copyright Office of India. BIH logo designed by Tasneem Alghamdi and edited for this app by Mohammad Usmaan. The developer says thank you</string>
+    <string name="red">#f6596d</string>
+    <string name="purple">#c5218e</string>
+    <string name="green">#65ef6b</string>
+    <string name="blue">#715cfd</string>
+    <string name="skyBlue">#00e1ff</string>
+    <string name="yellow">#fee447</string>
+    <string name="title_activity_campus_life">CampusLife</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="libraryInfo">The university library has a rich collection of books with annual acquisitions valued at over 3 million U.S. dollars. Today, Bilkent University Library is the largest university library of Turkey, and it is the only university library to take place at the Top 10 libraries ranking of Turkey. \nIn addition to books, the collection includes periodical subscriptions, microforms, CD-ROMS, access to numerous online databases and electronic journals, DVD videos and audio/video cassettes. Music scores and sound recordings are available in the music rooms. Various open private collections and an exhibition hall also take place in the library. Bilkent University Library is opening its doors to the students and faculty of the other universities. The computer automation system (BLISS) made for the use of Bilkent University Library is now being used by many other Turkish university libraries, again by permission of Bilkent University.
+</string>
+    <string name="tuitonInfo">All students who are admitted to Bilkent University in accordance with the regulations stated in the Higher Education Council’s “Guidelines for Admission of Students From Abroad” are considered international students and are required to pay the international student tuition fees. </string>
+    <string name="permitInfo">International students are required to obtain a residence permit within a maximum of thirty (30) days after entering Turkey.\nThe Office of International Students will provide detailed information at registration about the procedure of applying to the Ankara Migration Management Office for a residence permit.\nStudents must submit a copy of their residence permit to the Office of International Students as soon as it is received from the Ankara Migration Management Office. \n\nNOTE: International students are required to enroll in the General Health Insurance (GHI) system and to renew the enrollment every year. This is necessary to ensure the validity of their residence permit The annual fee for the GHI is approximately 500 Turkish Lira (TL). Further information will be provided during registration.</string>
+    <string name="scholarInfo">PLEASE ENSURE ALL SCHOLARSHIP POLICIES ARE ADHERED TO AS FAILURE TO DO SO MAY RESULT IN LOSS OF FINANCIAL SUPPORT.\n\n<span font-size="1dp"> Please check mails from bilkent administration for any updates in scholarship policy. Contact international office and or BIH to clear any doubts regarding scholarship.</span></string>
+    <string name="docInfo">Please note: If the documents listed below are in a language other than English or Turkish, students must provide a translation by a certified translator along with the copy of the original document.</string>
+    <string name="sportInfo">Our Mission is to provide the Bilkent University students with quality physical education, sports and fitness programs and an environment in which they can participate in variety of activities, team and individual sports and games while getting in shape and staying active all year long. </string>
+    <string name="radioInfo">Radio Bilkent was founded by Bilkent University Students Electronic Communication Group in 1995 had two alternative broadcasts, Radio Bilkent Alternative and Radio Bilkent Classic, with a 1 kw power limited to campuswide broadcasting. In 1998, all-volunteer, university funded, non-commercial student radio station has combined these broadcasts at 106.7 FM. In the year 2002 which is the 7th year of its foundation, Radio Bilkent has been reorganized and has started broadcasting at 96.6 with an official firm status titled as Bilkent Radyo Televizyon ve Yayıncılık A.Ş. Radio Bilkent can now be heard allover Ankara with the upgrading of equipment and its facilities. It is the only station in town providing commercial-free music to the Ankara community with its all volunteer student staff.</string>
+    <string name="healthInfo">Bilkent University has health centers on both the Main and East Campuses providing health care to all faculty and administrative staff members and students. These facilities serve as polyclinics on weekdays during business hours, and as urgent care centers after working hours. Experienced physicians and nurses, as well as five ambulances, are available for emergency cases 24 hours a day, 7 days a week. The health centers have well-equipped in-house laboratories for immediate medical analyses, such as blood count and chemistry, urine analysis, X-rays and ultrasound examinations. Test results are often available on the same day as your visit. (It may take longer to receive the results of some other tests, which are sent to reference labs.) Other available services include disease prevention plans, patient referrals and education programs for students and staff members on general medical issues and first aid.In addition to the centers’ full-time healthcare providers, there are also specialists who can be seen by appointment only. Please refer to the schedules before making an appointment. Note that for the services of specialists at the Bilkent health centers and physicians who are on the approved list for the group health insurance plan, our current private health insurance pays 70 percent of the total medical charge, and you will be responsible for the remaining 30 percent, to be paid in cash or with a credit card. </string>
+    <string name="postInfo">Bilkent University strives to ease student lives so that they can focus wholly on thier studies. Hence Bilkent University hosts several postal and banking facilities on campus, making these essential services easily accesible to students</string>
+    <string name="bookInfo">Textbooks and other stationary can be bought from stores located on campus. Please check list below for information regarding on campus stores.</string>
+    <string name="busDisclaimer">
+        IF NO TIMINGS SEEN PLEASE UPDATE MANUALLY AND RESTART
+       \n&#8226;*The buses will first drop passengers on the Main Campus then will go to East Campus.<br />
+        \n&#8226;(+)Friday and Saturday nights only.<br />
+        \n&#8226;(x) The buses departing from The East Campus will go to the city center via The Main Campus.<br />
+        \n&#8226;DEPARTURE PLACES:<br />
+        \n\t&#8226;Tunus: Tunus Street<br />
+        \n\t&#8226;Sıhhiye: On the Sıhhiye Bridge<br />
+        \n\t&#8226;Bahçelievler: Crossroads of Kazakistan Street and Bosna Hersek Street - In front of guesthouse of "DSİ"<br />
+        \n\t&#8226;AŞTİ: Crossroads of Bosna Hersek St. and Bişkek St.(8th St.)<br />
+        \n&#8226;Any rescheduling will be announced on the bulletin boards and internet.<br />
+        \n&#8226;For suggestions and complaints please dial 2811.<br />
+        \n&#8226;All the buses\' last stop in Bilkent is Dormitories crossroads.<br />
+        \n&#8226;Occasionally there may be a 7-10 minutes delay in buses arriving at the city stops.<br />
+        \n&#8226;Schedule will update automatically each month. However, a new schedule can be obtained by clicking on \'Manual Update\' option.<br />
+    </string>
+</resources>

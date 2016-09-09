@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/container1"
+            android:paddingTop="5dp"
+            android:layout_weight="0.7">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFragTitle"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:paddingBottom="15dp"/>
+
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+                <ImageView
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:id="@+id/imgLifePic"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+            </ImageView>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/container2"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txtLifeInfo"
+                android:layout_gravity="center_horizontal"
+                android:maxLines = "10"
+                android:textSize="15sp"
+                android:scrollbars = "vertical"
+                android:fadeScrollbars="false"
+                android:gravity="center"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:layout_weight="0.6" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lstLifeLinks"
+                android:paddingTop="15dp"
+                android:layout_weight="0.4"
+                android:fadeScrollbars="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
